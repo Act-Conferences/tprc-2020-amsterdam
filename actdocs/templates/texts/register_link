@@ -20,5 +20,8 @@
         [%- reg_link_text_use -%]
       </a>
     [% END %]
-
+[% ELSE %]
+  <a class="[%reg_link_class %]" href="[% make_uri('main') %]">
+    Looking forward to seeing you there!
+  </a>
 [% END %]

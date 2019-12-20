@@ -1,3 +1,4 @@
+<!-- Updated for 2020 -->
 <section class="mbr-section" id="sponsoring_intro">
 
   <div class="mbr-section mbr-section__container mbr-section__container--middle">
@@ -17,8 +18,8 @@
 
           <p>
             Contact
-            <a href="mailto:sponsors@theperlconference.amsterdam" target="_top">
-              sponsors@theperlconference&#8203;.amsterdam
+            <a href="mailto:info@perlrakucon.eu" target="_top">
+              info@perlrakucon&#8203;.eu
             </a> for information about how you can help this Perl conference to
             be affordable for everyone.
           </p>
@@ -42,7 +43,7 @@
               and get the best deals!
             </p>
           <div>
-            <a class="btn btn-secondary" href="[% make_uri('/sponsoring.html') %]">
+            <a class="btn btn-secondary" href="[% make_uri('sponsoring.html') %]">
               SEE THE SPONSORING MENU
             </a>
           </div>

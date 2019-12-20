@@ -1,3 +1,4 @@
+<!-- Updated for 2020 -->
 <section class="mbr-section mbr-section__container article" style="background-color: rgb(255, 255, 255); padding-top: 20px; padding-bottom: 20px;">
   <div class="container">
     <div class="row">
@@ -19,7 +20,7 @@
 [% FOREACH news_item IN latest_news %]
 
   <section class="mbr-section article mbr-section__container" style="background-color: rgb(255, 255, 255); padding-top: 10px; padding-bottom: 20px;">
-  
+
     <div class="container">
       <div class="row">
         <div class="col-xs-12 lead">
@@ -29,12 +30,11 @@
           <blockquote class="">
             [% news_item.content %]
           </blockquote>
-          
+
         </div>
       </div>
     </div>
-  
-  </section>
-  
-[% END %]
 
+  </section>
+
+[% END %]

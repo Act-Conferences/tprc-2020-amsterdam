@@ -1,3 +1,4 @@
+<!-- Updated for 2020 -->
 <section class="mbr-section mbr-parallax-background" id="venue_intro" style="background-image: url(assets/images/nlpw2016-2000x988-92.jpg); padding-top: 100px; padding-bottom: 0px;">
 
   <div class="mbr-overlay" style="opacity: 0.8; background-color: rgb(0, 0, 0);">
@@ -9,9 +10,9 @@
       <div class="container">
         <h2 class="mbr-section-title display-2" style="text-align:center;">
           <span style="font-size: 3rem; line-height: 1.1;">
-            <a class="amsterdam_red" href="http://b-buildingbusiness.com/amsterdam/b-1/" target="_blank">
-              <span class="hidden-sm-down">Our venue: B.Amsterdam</span>
-              <span class="hidden-md-up" style="font-size:80%;">Our venue: B.Amsterdam</span>
+            <a class="amsterdam_red" href="https://www.het-sieraad.nl/" target="_blank">
+              <span class="hidden-sm-down">Our venue: Het Sieraad</span>
+              <span class="hidden-md-up" style="font-size:80%;">Our venue: Het Sieraad</span>
             </a>
           </span>
         </h2>
@@ -21,33 +22,26 @@
 
             <div class="mbr-table-cell mbr-right-padding-lg-up col-md-6 col-lg-4 text-xs-center text-md-right">
 
-              <h3 class="mbr-section-title display-4">A city in a building</h3>
+              <h3 class="mbr-section-title display-4">The Pe(a)rl of Amsterdam</h3>
 
               <div class="mbr-section-text lead">
+      <p>Het Sieraad is national heritage site erected in 1924 as a trade school.</p>
       <p>
-  With its 40,000 square meters of combined office space, B.Amsterdam is the
-  biggest startup ecosystem in Europe.  Vacant office buildings were
-  redeveloped as a creative working space for innovation, education, and
-  growth: affordable space in a dynamic environment.
-      </p><p>
-  B.Amsterdam is very close to Schiphol Airport (10 minutes by car) and
-  very close to Amsterdam city center (20 minutes by bike).
+        Het Sieraad is close to the city center of Amsterdam (a few minutes by bike)
+        and can also be reached by tram or by boat at the junction of Admiralengracht
+        and Kostverlorenvaart.
       </p>
-  <p style="margin-bottom:0;">Address:</p>
-  <p style="margin-bottom:0;">Johan Huizingalaan 763a</p>
-  <p>1066 VH Amsterdam</p>
-
-              </div>
+        <p style="margin-bottom:0;">Address:</p>
+        <p style="margin-bottom:0;">Postjesweg 1</p>
+        <p>1057 DT Amsterdam</p>
+        </div>
 
               [%# <div class="mbr-section-btn"><a class="btn btn-primary" href="https://mobirise.com">MORE</a></div> %]
 
             </div>
             <div class="mbr-table-cell mbr-valign-top col-md-6 col-lg-8">
-
               <div class="mbr-map" id="embedded-map">
-                <iframe 
-                  frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0Dx_boXQiwvdz8sJHoYeZNVTdoWONYkU&amp;q=place_id:ChIJXUl4ro7hxUcRtA8lwFsg8mk" allowfullscreen="">
-                </iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4872.725125656583!2d4.8540853895961735!3d52.36384553422241!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5e20c4140af2b%3A0x26ddaf19490dfc95!2sHet%20Sieraad%20BV.%2C%20Amsterdam!5e0!3m2!1sen!2sde!4v1576776401040!5m2!1sen!2sde" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
               </div>
 
             </div>

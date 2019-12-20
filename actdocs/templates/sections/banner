@@ -1,3 +1,4 @@
+<!-- Updated for 2020 -->
 <section class="mbr-section mbr-section-hero mbr-section-full mbr-parallax-background mbr-after-navbar" id="banner">
 
   <div class="mbr-overlay" style="opacity: 0.3; background-color: rgb(0, 0, 0);">
@@ -9,40 +10,36 @@
       <div class="container">
         <div class="mbr-section row">
           <div class="mbr-table-md-up">
-            
             <div class="mbr-table-cell mbr-right-padding-md-up mbr-valign-top col-md-5">
               <div class="mbr-figure">
-                <img class="hidden-sm-down" src="[% make_uri_info('img', 'painted_logo_351.png') %]" alt="View of Amsterdam">
+                <img class="hidden-sm-down" src="[% make_uri_info('img', 'painted_logo_351.png') %]" alt="Conference logo">
               </div>
             </div>
-            
             <div class="mbr-table-cell col-md-7 text-xs-center text-md-left">
 
               <h3 class="mbr-section-title display-2">
                 <span class="hidden-sm-down">
-                  The Perl Conference<br><span style="font-weight: normal;">in Amsterdam</span>
+                  The Perl &amp; Raku Conference<br><span style="font-weight: normal;">in Amsterdam</span>
                 </span>
                 <span class="hidden-md-up" style="font-size:80%;">
-                  The Perl Conference<br><span style="font-weight: normal;">in Amsterdam</span>
+                  The Perl &amp; Raku Conference<br><span style="font-weight: normal;">in Amsterdam</span>
                 </span>
               </h3>
 
               <div class="mbr-section-text display-4">
-                <p style="font-size:70%;">9 .. 11 August, 2017</p>
+                <p style="font-size:70%;">10 .. 14 August, 2020</p>
               </div>
 
               <div class="mbr-section-text display-4">
                 <p style="font-size:50%;font-weight:200;">
-                  at B.Amsterdam<br>
-                  Johan Huizingalaan 763a<br>
-                  1066 VH Amsterdam
+                  at Het Sieraad<br>
+                  Postjesweg 1<br>
+                  1057 DT Amsterdam
                 </p>
               </div>
-              
               <div class="mbr-section-btn">
                 [% INCLUDE texts/register_link mobirise=1 reg_link_text='Register now!' %]
               </div>
-                            
             </div>
 
           </div>
