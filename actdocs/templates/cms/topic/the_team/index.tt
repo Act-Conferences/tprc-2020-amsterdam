@@ -2,12 +2,7 @@
     SET CMS.index = {
         title = "The Fabulous Team",
         items = [
-            'Theo_vanHoesel',
-            'Wendy_vanDijk',
-            'HMerijn_Brand',
-            'Lenn_vanWinden',
-            'Judith_deHont',
-            'Eric_deHont'
+            'Samantha_McVey',
             'Melinda_Kiss',
             'Detlev_Hauschildt' ,
         ],
@@ -17,6 +12,13 @@
 
            "Make sure that you meet them during the conference and buy them a
             beer",
+        ],
+        items_2017 = [
+            'Wendy_vanDijk',
+            'HMerijn_Brand',
+            'Lenn_vanWinden',
+            'Judith_deHont',
+            'Eric_deHont'
         ],
     }
 %]
