@@ -1,12 +1,10 @@
 [general]
-#full_uri = http://theperlconference.amsterdam/
-full_uri  = http://act.perlconference.org/tpc-2017-amsterdam/
-#full_uri  = http://cv:9000/yapc2017/
-#full_uri  = http://test.mongueurs.net/tpc-2017-amsterdam/
+full_uri  = http://act.perlconference.org/tprc-2020-amsterdam/
+#full_uri  = http://test.mongueurs.net/tprc-2020-amsterdam/
 languages = en
 default_language = en
 default_country  = nl
-name_en   = The Perl Conference in Amsterdam
+name_en   = The Perl and Raku Conference in Amsterdam 2020
 timezone  = Europe/Amsterdam
 
 [registration]
@@ -23,15 +21,16 @@ open = 1
 
 [talks]
 submissions_open = 1
-submissions_notify_address  = program@theperlconference.amsterdam
+submissions_notify_address  = info@perlrakucon.eu
 submissions_notify_language = en
 notify_accept = 1
 edition_open  = 0
 show_schedule = 1
 durations  = 20 45 70
-start_date = 2017-08-07 08:00:00
-end_date   = 2017-08-11 20:00:00
+start_date = 2020-08-10 08:00:00
+end_date   = 2020-08-14 20:00:00
 levels = 4
+languages = en
 #languages = fr en
 
 [levels]
@@ -57,7 +56,8 @@ type        = YEF
 currency    = EUR
 open        = 1
 invoices    = 1
-products    = registration trainingmon trainingtue upgrade partner
+#products    = registration trainingmon trainingtue upgrade partner
+products = registration upgrade partner
 
 [product_registration]
 name_en     = Registration
@@ -80,15 +80,15 @@ name_en     = Speaker
 amount      = 0
 
 [product_registration_price5]
-name_en     = Single-Day - Wed. 9th of August
+name_en     = Single-Day - Wed. 12th of August
 amount      = 130
 
 [product_registration_price6]
-name_en     = Single-Day - Thu. 10th of August
+name_en     = Single-Day - Thu. 13th of August
 amount      = 130
 
 [product_registration_price7]
-name_en     = Single-Day - Fri. 11th of August
+name_en     = Single-Day - Fri. 14th of August
 amount      = 130
 
 [product_registration_price8]
