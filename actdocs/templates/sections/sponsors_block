@@ -32,7 +32,7 @@
   END;
 
   sb_sponsor = {};
-  sb_group.members.0        = sb_sponsor;
+  # todo_2020: sb_group.members.push(sb_sponsor);
   sb_sponsor.img            = 'booking_com__grey.png';
   sb_sponsor.url            = 'https://workingatbooking.com';
   sb_sponsor.title          = 'Booking.com';
@@ -45,7 +45,7 @@
   END;
   
   sb_sponsor = {};
-  sb_group.members.1        = sb_sponsor;
+  # todo_2020: sb_group.members.push(sb_sponsor);
   sb_sponsor.img            = 'cpanel__grey.png';
   sb_sponsor.url            = 'https://jobs.cpanel.com';
   sb_sponsor.title          = 'cPanel';
@@ -68,7 +68,7 @@
   END;
   
   sb_sponsor = {};
-  sb_group.members.0        = sb_sponsor;
+  sb_group.members.push(sb_sponsor);
   sb_sponsor.img            = 'eligo__grey.png';
   sb_sponsor.url            = 'http://www.eligo.co.uk';
   sb_sponsor.title          = 'Eligo';
@@ -82,7 +82,7 @@
   END;
 
   sb_sponsor = {};  
-  sb_group.members.1        = sb_sponsor;
+  # todo_2020: sb_group.members.push(sb_sponsor);
   sb_sponsor.img            = 'perl-careers__grey.png';
   sb_sponsor.url            = 'http://perl.careers';
   sb_sponsor.title          = 'Perl Careers';
@@ -108,7 +108,7 @@
   END;
   
   sb_sponsor = {};
-  sb_group.members.0        = sb_sponsor;
+  # todo_2020: sb_group.members.push(sb_sponsor);
   sb_sponsor.img            = 'zaaksysteem__grey.png';
   sb_sponsor.url            = 'http://www.zaaksysteem.nl';
   sb_sponsor.title          = 'Zaaksysteem NL';
@@ -122,7 +122,7 @@
   END;
 
   sb_sponsor = {};  
-  sb_group.members.1        = sb_sponsor;
+  # todo_2020: sb_group.members.push(sb_sponsor);
   sb_sponsor.img            = 'geizhals__grey.png';
   sb_sponsor.url            = 'http://www.geizhals.at';
   sb_sponsor.title          = 'Geizhals Preisvergleich';
@@ -136,7 +136,7 @@
   END;
 
   sb_sponsor = {};  
-  sb_group.members.2        = sb_sponsor;
+  # todo_2020: sb_group.members.push(sb_sponsor);
   sb_sponsor.img            = 'broadbean__grey.png';
   sb_sponsor.url            = 'http://www.broadbean.com';
   sb_sponsor.title          = 'Broadbean Technology';
@@ -162,7 +162,7 @@
   END;
 
   sb_sponsor = {};
-  sb_group.members.0        = sb_sponsor;
+  # todo_2020: sb_group.members.push(sb_sponsor);
   sb_sponsor.img            = 'camelia__grey.png';
   sb_sponsor.url            = 'http://www.perl6.org';
   sb_sponsor.title          = 'Camelia';
@@ -177,8 +177,8 @@
     sb_sponsor.img_style_xs       = 'width:50%;';
   END;
   
-  sb_sponsor = {};  
-  sb_group.members.1        = sb_sponsor;
+  sb_sponsor = {};
+  # todo_2020: sb_group.members.push(sb_sponsor);
   sb_sponsor.img            = 'themamedia__grey.png';
   sb_sponsor.url            = 'http://thema-media.nl/';
   sb_sponsor.title          = 'themamedia';
@@ -194,8 +194,8 @@
     sb_sponsor.img_style_xs       = 'width:40%;';
   END;
 
-  sb_sponsor = {};  
-  sb_group.members.2        = sb_sponsor;
+  sb_sponsor = {};
+  # todo_2020: sb_group.members.push(sb_sponsor);
   sb_sponsor.img            = 'perl-services__grey.png';
   sb_sponsor.url            = 'http://www.perl-services.de/';
   sb_sponsor.title          = 'perl Services';

@@ -1,0 +1,15 @@
+[%
+    SET CMS.item = {
+        title = "Harald Jörg",
+        image = "harald.jpg",
+        tasks = "Web Padawan",
+        intro = "Eat your own food, Act hacker!",
+        texts = [
+           "I'm using Perl to solve problems since 1995.  My first European
+            Perl Conference was YAPC 2002 in Munich, I've missed quite a few
+            since then.",
+           "I an notorious for trying to modernize the Act conference toolkit,
+            which scored me a gig at helping to get the website up and running."
+        ],
+    }
+%]

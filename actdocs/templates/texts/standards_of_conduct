@@ -1,51 +1,77 @@
+        <article class="post">
 
-<h1>Standards of Conduct</h1>
+  <header class="post-header">
+    <h1 class="post-title">Code of Conduct</h1>
+  </header>
 
-<h2>1. Purpose</h2>
+  <div class="post-content">
+    <p>The organizers of <strong>Perl and Raku Conference 2020</strong> are dedicated to providing a harassment-free conference experience for everyone regardless of age, gender, gender identity, sexual orientation, disability, physical appearance, race, or religion (or lack thereof).</p>
 
-<p>The Perl Foundation believes our community should be truly open for everyone. As such, we are committed to providing a friendly, safe and welcoming environment for all, regardless of gender, gender identity, sexual orientation, disability, ethnicity, religion, or country of origin</p>
+<p>All participants (including attendees, speakers, sponsors and volunteers) at the conference are required to agree to the following code of conduct.
+The code of conduct applies to all conference activities including talks, panels, workshops, and social events. It extends to conference-specific exchanges on social media, for instance posts tagged with the identifier of the conference (e.g. #perlrakucon, #perlcon, #rakucon etc. on Twitter), replies to such posts, and replies to the official social media account (official account will be added once it live) on Twitter).</p>
 
-<p>This standards of conduct outlines our expectations for participant behavior. We invite all sponsors, volunteers, speakers, attendees, vendors, and other participants to help us create a safe and positive conference experience for everyone.</p>
+<p>Organizers will enforce this code throughout and expect cooperation in ensuring a safe environment for all.</p>
 
-<h2>2. Scope</h2>
+<h2 id="expected-behavior">Expected Behavior</h2>
 
-<p>We expect all conference participants (sponsors, volunteers, speakers, attendees, vendors, and other guests) to abide by this standards of conduct at all conference venues and conference-related social events.</p>
-
-<h2>3. Expected Behavior</h2>
+<p>All conference participants agree to:</p>
 
 <ul>
-<li>Be considerate, respectful, and collaborative.</li>
-<li>Refrain from demeaning, discriminatory or harassing behavior and speech.</li>
-<li>Be mindful of your surroundings and of your fellow participants.</li>
-<li>Alert conference organizers if you notice a dangerous situation or someone in distress.</li>
+  <li>Be considerate in language and actions, and respect the boundaries of fellow participants.</li>
+  <li>Refrain from demeaning, discriminatory, or harassing behavior and language. Please refer to Unacceptable Behavior for more details.</li>
+  <li>Alert a member of the code of conduct response team [reference to further details] if you notice someone in distress, or observe violations of this code of conduct, even if they seem inconsequential. Please refer to the section titled <a href="#what-to-do-if-you-witness-or-are-subject-to-unacceptable-behavior">What To Do If You Witness or Are Subject To Unacceptable Behavior</a> for more details.</li>
 </ul>
 
-<h2>4. Unacceptable Behavior</h2>
+<h2 id="unacceptable-behavior">Unacceptable Behavior</h2>
 
-<p>Unacceptable behaviors include: intimidating, harassing, abusive, discriminatory, derogatory or demeaning conduct by any attendees. The Perl Conference venues may be shared with members of the public; please be respectful to all patrons of these locations.</p>
+<p>Behavior that is unacceptable includes, but is not limited to:</p>
 
-<p>Harassment includes: offensive verbal comments related to gender, gender identity, sexual orientation, race, religion, disability; inappropriate use of nudity and/or sexual images (including presentation slides); deliberate intimidation, stalking or following; harassing photography or recording; sustained disruption of talks or other events; inappropriate physical contact, and unwelcome sexual attention.</p>
+<ul>
+  <li>Stalking</li>
+  <li>Deliberate intimidation</li>
+  <li>Unwanted photography or recording</li>
+  <li>Sustained or willful disruption of talks or other events</li>
+  <li>Use of sexual or discriminatory imagery or comments</li>
+  <li>Offensive comments related to age, gender, gender identity, sexual orientation, disability, race or religion</li>
+  <li>Inappropriate physical contact, which can include grabbing, or massaging or hugging without consent.</li>
+  <li>Unwelcome sexual attention, which can include inappropriate questions of a sexual nature, asking for sexual favors or repeatedly asking for dates or contact information.</li>
+</ul>
 
-<h2>5. Consequences of Unacceptable Behavior</h2>
+<p>If you are asked to stop harassing behavior you should stop immediately, even if your behavior was meant to be friendly or a joke, it was clearly not taken that way and for the comfort of all conference attendees you should stop.
+Attendees who behave in a manner deemed inappropriate are subject to actions listed under <a href="#procedure-for-code-of-conduct-violations">Procedure for Code of Conduct Violations</a>.</p>
 
-<p>Unacceptable behavior by other attendees, organizers, venue staff, sponsors, or other patrons of The Perl Conference venues will not be tolerated.</p>
+<h2 id="additional-requirements-for-conference-contributions">Additional Requirements for Conference Contributions</h2>
 
-<p>Anyone asked to stop unacceptable behavior is expected to comply immediately.</p>
+<p>Presentation slides and posters should not contain offensive or sexualized material. If this material is impossible to avoid given the topic (for example text mining of material from hate sites) the existence of this material should be noted in the abstract and, in the case of oral contributions, at the start of the talk or session.</p>
 
-<p>If anyone engages in unacceptable behavior, the conference organizers may take any action they deem appropriate including expulsion from the conference without warning or refund.</p>
+<h2 id="additional-requirements-for-sponsors">Additional Requirements for Sponsors</h2>
 
-<h2>6. What to do if you witness or are subject to unacceptable behavior</h2>
+<p>Sponsors should not use sexualized images, activities, or other material. Booth staff (including volunteers) should not use sexualized clothing/uniforms/costumes, or otherwise create a sexualized environment. In case of violations, sanctions may be applied without return of sponsorship contribution.</p>
 
-<p>If you are subject to unacceptable behavior, notice that someone else is being subject to unacceptable behavior, or have any other concerns, please notify <a href="mailto:conduct@theperlconference.amsterdam">conduct@theperlconference.amsterdam</a> as soon as possible.</p>
+<h2 id="procedure-for-code-of-conduct-violations">Procedure for Code of Conduct Violations</h2>
 
-<h2>7. License and attribution</h2>
+<p>The organizing committee reserves the right to determine the appropriate response for all code of conduct violations. Potential responses include:</p>
 
-<p>Creative Commons Attribution-ShareAlike http://creativecommons.org/licenses/by-sa/3.0/</p>
+<ul>
+  <li>A formal warning to stop harassing behavior</li>
+  <li>Expulsion from the conference</li>
+  <li>Removal of sponsor displays or conference posters</li>
+  <li>Cancellation or early termination of talks or other contributions to the program</li>
+</ul>
 
-<p>Contact Information:</p>
+<p>Refunds may not be given in case of expulsion.</p>
 
-<p>Elizabeth Mattijsen<br>
-   Leont Timmermans<br>
-   Sawyer X<br>
-   Melinda Kiss (damnlie)<br>
-<a href="conduct@theperlconference.amsterdam">conduct@theperlconference.amsterdam</a></p>
+<h2 id="what-to-do-if-you-witness-or-are-subject-to-unacceptable-behavior">What To Do If You Witness or Are Subject To Unacceptable Behavior</h2>
+
+<p>The specific details of how participants should report a violation and how reports will be handled has not been finalized.</p>
+
+<h2 id="acknowledgements">Acknowledgements</h2>
+
+<p>Parts of the above text are licensed <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.
+This code of conduct is based on <a href="https://www.r-project.org/coc.html">R lang</a>’s. R lang credits <a href="https://srccon.org/conduct/">SRCCON</a>.
+This code of conduct was based on that developed for <a href="https://user2018.r-project.org/code_of_conduct/">useR! 2018</a>
+which was a revision of the code of conduct used at previous useR!s and also drew from <a href="https://ropensci.org/coc/">rOpenSci’s code of conduct</a>.</p>
+
+  </div>
+
+</article>

@@ -4,19 +4,19 @@
         intro =
            "A BIG THANK YOU to the companies that invested in this conference.",
         items = [
-            "booking_com",
-            'cpanel' ,
+# todo_2020            "booking_com",
+# todo_2020            'cpanel' ,
             
             'eligo'  ,
-            'perl_careers' ,
+# todo_2020            'perl_careers' ,
             
-            'zaaksysteem' ,
-            'geizhals' ,
-            'broadbean' ,
+# todo_2020            'zaaksysteem' ,
+# todo_2020            'geizhals' ,
+# todo_2020            'broadbean' ,
             
-            'camelia' ,
-            'themamedia' ,
-            'perl_services' ,
+# todo_2020            'camelia' ,
+# todo_2020            'themamedia' ,
+# todo_2020            'perl_services' ,
             
         ],
         texts = [

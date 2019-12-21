@@ -10,18 +10,20 @@
   END;
 %]
 
-[% IF !reg_link_has_reg %]
-    [% IF !reg_link_logged_in %]
-      <a class="[%reg_link_class %]"  href="[% make_uri('login') %]?destination=[% make_uri('register') %]">
-        [%- reg_link_text_use -%]
-      </a>
+[% IF ! global.config.closed # suppress any button if registration isn't available%]
+    [% IF !reg_link_has_reg %]
+        [% IF !reg_link_logged_in %]
+          <a class="[%reg_link_class %]"  href="[% make_uri('login') %]?destination=[% make_uri('register') %]">
+            [%- reg_link_text_use -%]
+          </a>
+        [% ELSE %]
+          <a class="[%reg_link_class %]" href="[% make_uri('register') %]">
+            [%- reg_link_text_use -%]
+          </a>
+        [% END %]
     [% ELSE %]
-      <a class="[%reg_link_class %]" href="[% make_uri('register') %]">
-        [%- reg_link_text_use -%]
+      <a class="[%reg_link_class %]" href="[% make_uri('main') %]">
+        Looking forward to seeing you there!
       </a>
     [% END %]
-[% ELSE %]
-  <a class="[%reg_link_class %]" href="[% make_uri('main') %]">
-    Looking forward to seeing you there!
-  </a>
 [% END %]

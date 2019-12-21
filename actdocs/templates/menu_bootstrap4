@@ -27,7 +27,6 @@
     [% PROCESS menus/talks       %]
     [%# PROCESS menus/users       %]
     [% PROCESS menus/user        %]
-            
   </ul>
   <button hidden="" class="navbar-toggler navbar-close" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar">
     <div class="close-icon"></div>

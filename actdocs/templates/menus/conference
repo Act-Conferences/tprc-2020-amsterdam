@@ -11,16 +11,16 @@
   </a>
 
   <ul class="dropdown-menu">
-    <li><a [% item_a_attr %] href="[% make_uri('training.html')           %]">Training courses</a></li>
+    <!-- <li><a [% item_a_attr %] href="[% make_uri('training.html')           %]">Training courses</a></li> -->
     <li><a [% item_a_attr %] href="[% make_uri('#venue_intro')            %]">Venue</a></li>
     <li><a [% item_a_attr %] href="[% make_uri('volunteers.html')         %]">Volunteering ?!</a></li>
-    <li><a [% item_a_attr %] href="[% make_uri('sponsors.html')         %]">Our inavaluable sponsors</a></li>
+    <li><a [% item_a_attr %] href="[% make_uri('sponsors.html')           %]">Our invaluable sponsors</a></li>
     <li><a [% item_a_attr %] href="[% make_uri('speakers.html')           %]">Main speakers</a></li>
     <li><a [% item_a_attr %] href="[% make_uri('where-to-stay.html')      %]">Where to stay</a></li>
     <li><a [% item_a_attr %] href="[% make_uri('the-fabulous-team.html')  %]">Our team</a></li>
     <li><a [% item_a_attr %] href="[% make_uri('tour-in-Amsterdam.html')  %]">Exploring Amsterdam</a></li>
     <li><a [% item_a_attr %] href="[% make_uri('standards_of_conduct.html')  %]">Standards of Conduct</a></li>
-
+<!--
 [%# payment %]
     <li [% div_li_attr %]></li>
     <li><a [% item_a_attr %] href="[% make_uri('how-to-register.html') %]">How to register</a></li>
@@ -31,7 +31,7 @@
     <li [% div_li_attr %]></li>
     <li><a [% item_a_attr %] href="[% make_uri('search')            %]">User Search</a></li>
     <li><a [% item_a_attr %] href="[% make_uri('stats')             %]">User Statistics</a></li>
-
+-->
   </ul>
 
 </li>
