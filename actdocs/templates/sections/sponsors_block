@@ -21,9 +21,8 @@
   
   
   # detailed settings for group 0
-  sb_groups.0         = {};
-  sb_group            = sb_groups.0;
-  sb_group.members    = [];
+  sb_group            = { members => [] };
+  sb_groups.push(sb_group);
   
   IF !bootstrap3;
     sb_group.cols       = 'col-xs-12 col-lg-6';
@@ -57,9 +56,8 @@
   END;
 
   # detailed settings for group 1
-  sb_groups.1         = {};
-  sb_group            = sb_groups.1;
-  sb_group.members    = [];
+  sb_group            = { members => [] };
+  sb_groups.push(sb_group);
 
   IF !bootstrap3;
     sb_group.cols       = 'col-xs-12 col-lg-4';
@@ -97,9 +95,8 @@
   END;
 
   # detailed settings for group 2
-  sb_groups.2         = {};
-  sb_group            = sb_groups.2;
-  sb_group.members    = [];
+  sb_group            = { members => [] };
+  sb_groups.push(sb_group);
 
   IF !bootstrap3;
     sb_group.cols       = 'col-xs-12 col-lg-2';
@@ -151,9 +148,8 @@
   END;
 
   # detailed settings for group 3
-  sb_groups.3         = {};
-  sb_group            = sb_groups.3;
-  sb_group.members    = [];
+  sb_group            = { members => [] };
+  sb_groups.push(sb_group);
   
   IF !bootstrap3;
     sb_group.cols       = 'col-xs-12 col-lg-2';

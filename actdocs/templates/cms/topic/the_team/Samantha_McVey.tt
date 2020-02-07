@@ -1,7 +1,7 @@
 [%
     SET CMS.item = {
         title = "Samantha McVey",
-        image = "anniecast.jpg",
+        image = "samantha.jpg",
         tasks = "Main Organiser",
         intro = "Let's make the Perl Conference in Amsterdam GREAT together!",
         texts = [

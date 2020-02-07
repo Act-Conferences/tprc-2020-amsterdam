@@ -3,7 +3,7 @@
         title = "Harald Jörg",
         image = "harald.jpg",
         tasks = "Web Padawan",
-        intro = "Eat your own food, Act hacker!",
+        intro = "Just stepping in from remote",
         texts = [
            "I'm using Perl to solve problems since 1995.  My first European
             Perl Conference was YAPC 2002 in Munich, I've missed quite a few
