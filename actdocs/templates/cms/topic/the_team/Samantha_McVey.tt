@@ -5,7 +5,11 @@
         tasks = "Main Organiser",
         intro = "Let's make the Perl Conference in Amsterdam GREAT together!",
         texts = [
-           "Samantha, would you please care to add a statement here?"
+            "I am one of Raku's MoarVM developers working to improve various aspects of the virtual machine.
+            I work on string operation performance and Unicode support in MoarVM,
+            though recently has been working on making MoarVM's hashing more secure.
+            I love Perl and Raku and greatly enjoy contributing to Raku.
+            It is the programming language of the future!"
         ],
     }
 %]
