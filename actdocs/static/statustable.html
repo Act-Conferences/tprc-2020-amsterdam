@@ -1,0 +1,228 @@
+[% WRAPPER ui title = global.conference.name %]
+
+[% can_unregister = 
+       global.request.user.has_registered 
+    && !global.request.user.has_paid
+    && !global.request.user.has_talk
+%]
+
+[% talks = global.request.user.talks %]
+
+<p>Important variables I came across:</p>
+
+<table border="1">
+  <tr>
+    <td colspan="2" style="background-color:lightgrey;">
+Variables controlling which links are shown:
+    </td>
+  </tr>
+  <tr>
+    <td>global.request.conference</td>
+    <td>[% global.request.conference %]</td>
+  </tr>
+  <tr>
+    <td>global.request.user.has_registered</td>
+    <td>[% global.request.user.has_registered %]</td>
+  </tr>
+  <tr>
+    <td>global.request.user.has_paid</td>
+    <td>[% global.request.user.has_paid %]</td>
+  </tr>
+  <tr>
+    <td>global.request.path_info</td>
+    <td>[% global.request.path_info %]</td>
+  </tr>
+  <tr>
+    <td>global.config.payment_type</td>
+    <td>[% global.config.payment_type %]</td>
+  </tr>
+  <tr>
+    <td>global.config.registration_gratis</td>
+    <td>[% global.config.registration_gratis %]</td>
+  </tr>
+  <tr>
+    <td>global.config.payment_open</td>
+    <td>[% global.config.payment_open %]</td>
+  </tr>
+  <tr>
+    <td>global.config.closed</td>
+    <td>[% global.config.closed %]</td>
+  </tr>
+  <tr>
+    <td>global.config.talks_languages</td>
+    <td>[% global.config.talks_languages %]</td>
+  </tr>
+  <tr>
+    <td>additional_purchase</td>
+    <td>[% additional_purchase %]</td>
+  </tr>
+  <tr>
+    <td>orders.size</td>
+    <td>[% orders.size %]</td>
+  </tr>
+  <tr>
+    <td>talks.size</td>
+    <td>[% talks.size %]</td>
+  </tr>
+  <tr>
+    <td>global.config.talks_submissions_open</td>
+    <td>[% global.config.talks_submissions_open %]</td>
+  </tr>
+  <tr>
+    <td>can_unregister</td>
+    <td>
+      [% IF can_unregister %]
+        test=TRUE
+      [% ELSE %]
+        test=FALSE
+      [% END %]
+    </td>
+  </tr>
+  <tr>
+    <td>conferences.size</td>
+    <td>[% conferences.size %]</td>
+  </tr>
+  <tr>
+    <td colspan="2" style="background-color:lightgrey;">
+Other variables:
+    </td>
+  </tr>
+  <tr>
+    <td>global.conference.name</td>
+    <td>[% global.conference.name %]</td>
+  </tr>
+  <tr>
+    <td>global.request.user</td>
+    <td>[% global.request.user %]</td>
+  </tr>
+  <tr>
+    <td>global.request.action</td>
+    <td>[% global.request.action %]</td>
+  </tr>
+  <tr>
+    <td>global.request.user.login</td>
+    <td>[% global.request.user.login %]</td>
+  </tr>
+  <tr>
+    <td>global.request.user.participation</td>
+    <td>[% global.request.user.participation %]</td>
+  </tr>
+</table>
+
+<p>
+  <h3>global:</h3>
+  [% thehash=global %]
+  <ul>
+    [% FOREACH key IN thehash.keys %]
+      <li>[% key %] is [% thehash.$key %]</li>
+    [% END %]
+  </ul>
+</p>
+
+<p>
+  <h3>global.request:</h3>
+  [% thehash=global.request %]
+  <ul>
+    [% FOREACH key IN thehash.keys %]
+      <li>[% key %] is [% thehash.$key %]</li>
+    [% END %]
+  </ul>
+</p>
+
+<p>
+  <h3>global.request.r:</h3>
+  [% thehash=global.request.r %]
+  <ul>
+    [% FOREACH key IN thehash.keys %]
+      <li>[% key %] is [% thehash.$key %]</li>
+    [% END %]
+  </ul>
+</p>
+
+<p>
+  [%# USE env = EnvHash %]
+  <h3>env:</h3>
+  [% thehash={} %]
+  <ul>
+    [% FOREACH key IN thehash.keys %]
+      <li>[% key %] is [% thehash.$key %]</li>
+    [% END %]
+  </ul>
+</p>
+
+<p>
+  <h3>global.request.loc:</h3>
+  [% thehash=global.request.loc %]
+  <ul>
+    [% FOREACH key IN thehash.keys %]
+      <li>[% key %] is [% thehash.$key %]</li>
+    [% END %]
+  </ul>
+</p>
+
+<p>
+  <h3>global.request.args:</h3>
+  [% thehash=global.request.args %]
+  <ul>
+    [% FOREACH key IN thehash.keys %]
+      <li>[% key %] is [% thehash.$key %]</li>
+    [% END %]
+  </ul>
+</p>
+
+<!--
+ <p>
+   <h3>global.languages:</h3>
+   [% thearray=global.languages %]
+   <ul>
+     [% FOREACH val IN thearray %]
+       <li>[% val %]</li>
+     [% END %]
+   </ul>
+ </p>
+-->
+
+<p>
+  <h3>global.config.talks_languages:</h3>
+  [% thehash=global.config.talks_languages %]
+  <ul>
+    [% FOREACH key IN thehash.keys %]
+      <li>[% key %] is [% thehash.$key %]</li>
+    [% END %]
+  </ul>
+</p>
+
+<p>
+  <h3>array global.languages:</h3>
+  [% thearray=global.languages %]
+  <ul>
+    [% FOREACH lang IN thearray %]
+      <li>.uri is [% lang.uri %]</li>
+    [% END %]
+  </ul>
+</p>
+
+<p>
+  <h3>global.languages.0:</h3>
+  [% thehash=global.languages.0 %]
+  <ul>
+    [% FOREACH key IN thehash.keys %]
+      <li>[% key %] is [% thehash.$key %]</li>
+    [% END %]
+  </ul>
+</p>
+
+[% conf=global.request.conference %]
+<form action="/[% conf %]/statustable.html" method="post">
+  var1 <input type="text" name="var1" value="abc"><br>
+  var2 <input type="submit" name="var2" value="xyz"><br>
+</form> 
+
+[% USE CGI %]
+referer=[% CGI.referer %]
+r.uri=[% global.request.r.uri %]
+
+<p>end of page</p>
+
+[% END %]
+
