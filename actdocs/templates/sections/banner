@@ -27,16 +27,14 @@
               </h3>
 
               <div class="mbr-section-text display-4">
-                <p style="font-size:70%;">10 .. 14 August, 2020</p>
+                <p style="font-size:70%;">Unfortunately, this conference can not take place.
+                  The coronavirus is still spreading around Europe.
+                  Please understand that we can not ensure a safe environment for everyone to
+                  enjoy, and therefore have decided to cancel this year's European event.
+                </p>
+                <p>Stay safe, stay healthy, and stay tuned for news about the Perl and Raku Conference 2021.</p>
               </div>
 
-              <div class="mbr-section-text display-4">
-                <p style="font-size:50%;font-weight:200;">
-                  at Het Sieraad<br>
-                  Postjesweg 1<br>
-                  1057 DT Amsterdam
-                </p>
-              </div>
               <div class="mbr-section-btn">
                 [% INCLUDE texts/register_link mobirise=1 reg_link_text='Register now!' %]
               </div>
