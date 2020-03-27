@@ -2,7 +2,7 @@
 
   # unified sponsors_block for mobirise and bootstrap3
   # settings accordings to variable bootstrap3
-  PROCESS sections/sponsors_block;
+  # PROCESS sections/sponsors_block; - no conference, don't show the sponsors block
   
   IF NOT bootstrap3;
     col_class         = 'mbr-footer-content col-xs-12 col-md-3';
